@@ -1,0 +1,160 @@
+Product_ID,Product,Wholesaler,Location,Price/20kg,Stock
+1000,Mango,"Sankar, Buch and Badami",Dehradun,867,941
+1000,Mango,Kurian-Gill,Dehradun,958,697
+1001,Banana,"Karnik, Venkataraman and Deo",Jorhat,682,588
+1002,Guava,"Karnik, Venkataraman and Deo",Jorhat,655,990
+1002,Guava,Zacharia-Anand,Purnia,710,879
+1003,Pomegranate,"Sankar, Buch and Badami",Dehradun,836,710
+1003,Pomegranate,Zacharia-Anand,Purnia,548,998
+1004,Papaya,"Deep, Ramanathan and Shroff",Tiruppur,614,979
+1004,Papaya,Zacharia-Anand,Purnia,814,972
+1005,Jackfruit,Kurian-Gill,Dehradun,614,699
+1006,Sapota,Kurian-Gill,Dehradun,772,843
+1006,Sapota,"Karnik, Venkataraman and Deo",Jorhat,762,623
+1007,Custard Apple,"Sankar, Buch and Badami",Dehradun,828,628
+1008,Indian Gooseberry,Zacharia-Anand,Purnia,828,758
+1009,Lychee,Kurian-Gill,Dehradun,871,866
+1010,Pineapple,"Deep, Ramanathan and Shroff",Tiruppur,992,999
+1011,Grapes,"Sankar, Buch and Badami",Dehradun,771,743
+1012,Watermelon,"Deep, Ramanathan and Shroff",Tiruppur,948,617
+1013,Orange,Zacharia-Anand,Purnia,860,870
+1013,Orange,"Deep, Ramanathan and Shroff",Tiruppur,971,617
+1014,Apple,"Karnik, Venkataraman and Deo",Jorhat,890,640
+1014,Apple,Zacharia-Anand,Purnia,904,706
+1014,Apple,"Deep, Ramanathan and Shroff",Tiruppur,656,784
+1015,Pear,"Karnik, Venkataraman and Deo",Jorhat,555,965
+1015,Pear,"Deep, Ramanathan and Shroff",Tiruppur,793,928
+1015,Pear,Zacharia-Anand,Purnia,672,633
+1016,Plum,Zacharia-Anand,Purnia,519,961
+1017,Apricot,"Deep, Ramanathan and Shroff",Tiruppur,514,588
+1017,Apricot,Kurian-Gill,Dehradun,655,898
+1017,Apricot,Zacharia-Anand,Purnia,514,538
+1018,Fig,"Karnik, Venkataraman and Deo",Jorhat,783,832
+1018,Fig,Kurian-Gill,Dehradun,757,718
+1019,Okra,"Deep, Ramanathan and Shroff",Tiruppur,948,868
+1019,Okra,"Karnik, Venkataraman and Deo",Jorhat,629,988
+1019,Okra,Kurian-Gill,Dehradun,596,836
+1020,Brinjal,"Deep, Ramanathan and Shroff",Tiruppur,583,965
+1020,Brinjal,"Sankar, Buch and Badami",Dehradun,721,753
+1020,Brinjal,Zacharia-Anand,Purnia,626,948
+1021,Tomato,"Sankar, Buch and Badami",Dehradun,745,928
+1022,Onion,"Sankar, Buch and Badami",Dehradun,910,595
+1023,Potato,Zacharia-Anand,Purnia,619,875
+1023,Potato,"Deep, Ramanathan and Shroff",Tiruppur,936,982
+1023,Potato,"Sankar, Buch and Badami",Dehradun,541,737
+1024,Cauliflower,"Karnik, Venkataraman and Deo",Jorhat,679,576
+1024,Cauliflower,Zacharia-Anand,Purnia,786,886
+1025,Spinach,Zacharia-Anand,Purnia,950,848
+1025,Spinach,Kurian-Gill,Dehradun,931,500
+1025,Spinach,"Sankar, Buch and Badami",Dehradun,724,990
+1026,Lady's Finger,"Sankar, Buch and Badami",Dehradun,873,805
+1026,Lady's Finger,Kurian-Gill,Dehradun,954,970
+1026,Lady's Finger,"Deep, Ramanathan and Shroff",Tiruppur,654,764
+1027,Radish,Zacharia-Anand,Purnia,530,818
+1027,Radish,"Karnik, Venkataraman and Deo",Jorhat,533,952
+1028,Carrot,"Sankar, Buch and Badami",Dehradun,727,676
+1028,Carrot,"Karnik, Venkataraman and Deo",Jorhat,795,559
+1028,Carrot,Zacharia-Anand,Purnia,700,877
+1029,Cabbage,"Deep, Ramanathan and Shroff",Tiruppur,707,521
+1030,Chilli,"Karnik, Venkataraman and Deo",Jorhat,932,989
+1030,Chilli,"Deep, Ramanathan and Shroff",Tiruppur,683,550
+1031,Bitter Gourd,"Sankar, Buch and Badami",Dehradun,788,819
+1031,Bitter Gourd,Zacharia-Anand,Purnia,571,986
+1032,Ridge Gourd,Kurian-Gill,Dehradun,840,898
+1033,Coriander Leaves,"Sankar, Buch and Badami",Dehradun,569,743
+1033,Coriander Leaves,Kurian-Gill,Dehradun,867,831
+1033,Coriander Leaves,"Karnik, Venkataraman and Deo",Jorhat,968,788
+1034,Bottle Gourd,"Sankar, Buch and Badami",Dehradun,919,570
+1035,Green Peas,"Karnik, Venkataraman and Deo",Jorhat,944,534
+1035,Green Peas,"Sankar, Buch and Badami",Dehradun,999,697
+1036,Green Beans,"Karnik, Venkataraman and Deo",Jorhat,876,944
+1036,Green Beans,Zacharia-Anand,Purnia,852,832
+1037,Drumstick,Kurian-Gill,Dehradun,919,574
+1037,Drumstick,"Sankar, Buch and Badami",Dehradun,747,949
+1037,Drumstick,"Karnik, Venkataraman and Deo",Jorhat,752,956
+1038,Beetroot,"Deep, Ramanathan and Shroff",Tiruppur,825,692
+1039,Cucumber,"Karnik, Venkataraman and Deo",Jorhat,788,618
+1039,Cucumber,Kurian-Gill,Dehradun,763,782
+1040,Pumpkin,Kurian-Gill,Dehradun,875,546
+1040,Pumpkin,"Karnik, Venkataraman and Deo",Jorhat,909,644
+1040,Pumpkin,"Deep, Ramanathan and Shroff",Tiruppur,970,901
+1041,Turnip,"Karnik, Venkataraman and Deo",Jorhat,985,999
+1042,Sweet Potato,Zacharia-Anand,Purnia,863,992
+1043,Amaranth,"Sankar, Buch and Badami",Dehradun,633,824
+1044,Cluster Beans,"Karnik, Venkataraman and Deo",Jorhat,836,707
+1044,Cluster Beans,Zacharia-Anand,Purnia,653,942
+1045,Snake Gourd,"Karnik, Venkataraman and Deo",Jorhat,614,792
+1045,Snake Gourd,Zacharia-Anand,Purnia,803,703
+1046,Lemon,Zacharia-Anand,Purnia,949,666
+1047,Ginger,"Sankar, Buch and Badami",Dehradun,588,714
+1047,Ginger,Kurian-Gill,Dehradun,517,575
+1048,Garlic,Kurian-Gill,Dehradun,624,765
+1048,Garlic,"Karnik, Venkataraman and Deo",Jorhat,928,895
+1048,Garlic,"Sankar, Buch and Badami",Dehradun,900,641
+1049,Green Bell Pepper,Zacharia-Anand,Purnia,739,658
+1049,Green Bell Pepper,Kurian-Gill,Dehradun,738,829
+1049,Green Bell Pepper,"Deep, Ramanathan and Shroff",Tiruppur,516,569
+1050,Ash Gourd,Kurian-Gill,Dehradun,600,823
+1050,Ash Gourd,"Sankar, Buch and Badami",Dehradun,636,596
+1050,Ash Gourd,"Deep, Ramanathan and Shroff",Tiruppur,534,705
+1051,Fenugreek Leaves,Kurian-Gill,Dehradun,616,728
+1051,Fenugreek Leaves,"Sankar, Buch and Badami",Dehradun,776,967
+1052,Mint Leaves,Zacharia-Anand,Purnia,563,540
+1053,Curry Leaves,Zacharia-Anand,Purnia,536,564
+1054,Radish Leaves,Zacharia-Anand,Purnia,904,541
+1055,Mustard Leaves,Zacharia-Anand,Purnia,817,517
+1055,Mustard Leaves,"Sankar, Buch and Badami",Dehradun,776,765
+1056,Pointed Gourd,"Karnik, Venkataraman and Deo",Jorhat,733,575
+1056,Pointed Gourd,Zacharia-Anand,Purnia,753,553
+1056,Pointed Gourd,Kurian-Gill,Dehradun,604,963
+1057,Red Bell Pepper,"Deep, Ramanathan and Shroff",Tiruppur,911,684
+1057,Red Bell Pepper,"Karnik, Venkataraman and Deo",Jorhat,820,870
+1057,Red Bell Pepper,Zacharia-Anand,Purnia,594,918
+1058,Turmeric,Kurian-Gill,Dehradun,875,782
+1059,Black Eyed Peas,"Sankar, Buch and Badami",Dehradun,682,652
+1060,Elephant Foot Yam,"Sankar, Buch and Badami",Dehradun,663,847
+1061,Taro Root,"Sankar, Buch and Badami",Dehradun,945,973
+1062,Arbi,Kurian-Gill,Dehradun,903,595
+1062,Arbi,"Karnik, Venkataraman and Deo",Jorhat,626,541
+1063,Bottle Gourd Leaves,"Karnik, Venkataraman and Deo",Jorhat,743,753
+1064,Red Pumpkin,Kurian-Gill,Dehradun,742,924
+1064,Red Pumpkin,"Deep, Ramanathan and Shroff",Tiruppur,943,548
+1064,Red Pumpkin,"Sankar, Buch and Badami",Dehradun,741,586
+1065,Cluster Fig,Zacharia-Anand,Purnia,882,639
+1066,Ridge Gourd Leaves,"Sankar, Buch and Badami",Dehradun,538,748
+1067,Colocasia Leaves,Kurian-Gill,Dehradun,542,527
+1067,Colocasia Leaves,"Karnik, Venkataraman and Deo",Jorhat,787,909
+1068,Banana Flower,"Sankar, Buch and Badami",Dehradun,694,609
+1068,Banana Flower,Zacharia-Anand,Purnia,869,713
+1068,Banana Flower,"Karnik, Venkataraman and Deo",Jorhat,888,783
+1069,Ivy Gourd,"Karnik, Venkataraman and Deo",Jorhat,685,616
+1069,Ivy Gourd,Zacharia-Anand,Purnia,572,905
+1069,Ivy Gourd,"Sankar, Buch and Badami",Dehradun,842,858
+1070,Malabar Spinach,"Sankar, Buch and Badami",Dehradun,940,917
+1071,Yardlong Bean,Zacharia-Anand,Purnia,865,563
+1072,Chayote,"Sankar, Buch and Badami",Dehradun,595,774
+1073,Black Cumin Seeds,"Deep, Ramanathan and Shroff",Tiruppur,855,844
+1074,Green Sorrel,"Sankar, Buch and Badami",Dehradun,697,726
+1074,Green Sorrel,Kurian-Gill,Dehradun,863,579
+1075,Jute Mallow,"Karnik, Venkataraman and Deo",Jorhat,522,867
+1075,Jute Mallow,Zacharia-Anand,Purnia,824,775
+1076,Water Spinach,Zacharia-Anand,Purnia,910,671
+1077,Amaranth Leaves,Zacharia-Anand,Purnia,979,517
+1078,Dill Leaves,"Deep, Ramanathan and Shroff",Tiruppur,957,999
+1079,Purslane,"Karnik, Venkataraman and Deo",Jorhat,546,948
+1079,Purslane,"Sankar, Buch and Badami",Dehradun,783,671
+1079,Purslane,Kurian-Gill,Dehradun,602,761
+1080,Fenugreek Seeds,"Karnik, Venkataraman and Deo",Jorhat,557,630
+1081,Cluster Fig Leaves,Zacharia-Anand,Purnia,870,738
+1081,Cluster Fig Leaves,Kurian-Gill,Dehradun,628,625
+1082,Curry Plant,Zacharia-Anand,Purnia,961,617
+1082,Curry Plant,Kurian-Gill,Dehradun,525,632
+1082,Curry Plant,"Deep, Ramanathan and Shroff",Tiruppur,584,567
+1083,Black Gram,"Sankar, Buch and Badami",Dehradun,511,522
+1083,Black Gram,"Karnik, Venkataraman and Deo",Jorhat,963,630
+1084,Lentils,Kurian-Gill,Dehradun,771,638
+1085,Chickpeas,Kurian-Gill,Dehradun,761,507
+1085,Chickpeas,"Karnik, Venkataraman and Deo",Jorhat,528,924
+1085,Chickpeas,"Sankar, Buch and Badami",Dehradun,676,654
+1086,Pigeon Peas,"Karnik, Venkataraman and Deo",Jorhat,581,809
+1087,Green Gram,"Deep, Ramanathan and Shroff",Tiruppur,933,817

@@ -1,0 +1,129 @@
+import mysql.connector
+from mysql.connector import Error
+
+# Database credentials and information
+db_config = {
+    "user": "root",
+    "password": "root",
+    "host": "127.0.0.1",
+    "database": "IIA_database"
+}
+
+# Connecting to the MySQL database
+try:
+    conn = mysql.connector.connect(**db_config)
+    cursor = conn.cursor()
+    print("Successfully connected to the database")
+except Error as e:
+    print(f"Error connecting to MySQL: {e}")
+    exit(1)
+
+def insert_into_wholesalers():
+    try:
+        wholesaler_id = int(input("Enter wholesaler ID: "))
+        business_name = input("Enter business name: ")
+        contact_no = input("Enter contact number: ")
+        state = input("Enter state: ")
+        license_id = input("Enter license ID: ")
+
+        query = """
+        INSERT INTO WholesalersInfo (WholesalerID, BusinessName, ContactNo, State, LicenseID)
+        VALUES (%s, %s, %s, %s, %s)
+        """
+        values = (wholesaler_id, business_name, contact_no, state, license_id)
+        cursor.execute(query, values)
+        conn.commit()
+        print("Data inserted successfully into WholesalersInfo")
+    except Error as e:
+        print(f"Error: {e}")
+        conn.rollback()
+
+def insert_into_retailers():
+    try:
+        retailer_info = int(input("Enter retailer info ID: "))
+        retailer_name = input("Enter retailer name: ")
+        contact_no = input("Enter contact number: ")
+        address = input("Enter address: ")
+
+        query = """
+        INSERT INTO RetailersInfo (RetailerInfo, RetailerName, ContactNo, Address)
+        VALUES (%s, %s, %s, %s)
+        """
+        values = (retailer_info, retailer_name, contact_no, address)
+        cursor.execute(query, values)
+        conn.commit()
+        print("Data inserted successfully into RetailersInfo")
+    except Error as e:
+        print(f"Error: {e}")
+        conn.rollback()
+
+def insert_into_product_listing():
+    try:
+        listing_id = int(input("Enter listing ID: "))
+        wholesaler_id = int(input("Enter wholesaler ID: "))
+        product_name = input("Enter product name: ")
+        stock = int(input("Enter stock: "))
+        price = float(input("Enter price: "))
+        product_type = input("Enter product type: ")
+
+        query = """
+        INSERT INTO ProductListing (ListingID, WholesalerID, ProductName, Stock, Price, ProductType)
+        VALUES (%s, %s, %s, %s, %s, %s)
+        """
+        values = (listing_id, wholesaler_id, product_name, stock, price, product_type)
+        cursor.execute(query, values)
+        conn.commit()
+        print("Data inserted successfully into ProductListing")
+    except Error as e:
+        print(f"Error: {e}")
+        conn.rollback()
+
+def insert_into_transactions():
+    try:
+        trans_id = int(input("Enter transaction ID: "))
+        wholesaler_id = int(input("Enter wholesaler ID: "))
+        retailer_id = int(input("Enter retailer ID: "))
+        listing_id = int(input("Enter listing ID: "))
+        quantity = int(input("Enter quantity: "))
+        payment_method = input("Enter payment method: ")
+        date_time = input("Enter date and time: ")
+
+        query = """
+        INSERT INTO Transactions (TransID, WholesalerID, RetailerID, ListingID, Quantity, PaymentMethod, DateTime)
+        VALUES (%s, %s, %s, %s, %s, %s, %s)
+        """
+        values = (trans_id, wholesaler_id, retailer_id, listing_id, quantity, payment_method, date_time)
+        cursor.execute(query, values)
+        conn.commit()
+        print("Data inserted successfully into Transactions")
+    except Error as e:
+        print(f"Error: {e}")
+        conn.rollback()
+
+def menu():
+    while True:
+        print("\nMenu:")
+        print("1: Insert into WholesalersInfo")
+        print("2: Insert into RetailersInfo")
+        print("3: Insert into ProductListing")
+        print("4: Insert into Transactions")
+        print("5: Exit")
+        choice = input("Enter choice: ")
+        
+        if choice == '1':
+            insert_into_wholesalers()
+        elif choice == '2':
+            insert_into_retailers()
+        elif choice == '3':
+            insert_into_product_listing()
+        elif choice == '4':
+            insert_into_transactions()
+        elif choice == '5':
+            break
+        else:
+            print("Invalid choice, please choose again.")
+
+menu()
+cursor.close()
+conn.close()
+print("Database connection closed")
